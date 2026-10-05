@@ -1,0 +1,8 @@
+MINI PROJECT 2 - PROFILE PICTURE UPLOAD
+
+1. Import/update database.sql in phpMyAdmin.
+2. Make sure public/uploads/profile_pictures/ exists and is writable by PHP.
+3. Open the portal, log in, and go to My Profile.
+4. Upload a JPG/JPEG/PNG image <= 2MB.
+5. The filename is generated using time() + uniqid() and saved in students.profile_picture.
+6. For GitHub, do not commit uploaded personal images. Keep the .gitkeep file only.

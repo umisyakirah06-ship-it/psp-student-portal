@@ -1,0 +1,580 @@
+/* ========================================
+   PSP STUDENT PORTAL
+   MAIN STYLE
+   ======================================== */
+
+
+/* ========================================
+   BODY
+   ======================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e8;
+    color: #2f3e36;
+    margin: 0;
+}
+
+
+/* ========================================
+   NAVBAR
+   ======================================== */
+
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e8eee9;
+    box-shadow: 0 2px 10px rgba(47, 93, 80, 0.05);
+}
+
+.navbar-brand {
+    color: #2f5d50 !important;
+    font-weight: 700;
+}
+
+.navbar .nav-link {
+    color: #52615a;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #2f5d50;
+}
+
+
+/* ========================================
+   GENERAL
+   ======================================== */
+
+.container {
+    max-width: 1100px;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(47, 93, 80, 0.08);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #2f5d50;
+}
+
+
+/* ========================================
+   LOGIN PAGE
+   ======================================== */
+
+.login-page {
+    min-height: 100vh;
+    background-color: #f7f3e8;
+}
+
+.login-card {
+    border-radius: 18px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 8px 25px rgba(47, 93, 80, 0.10);
+}
+
+.login-card h2 {
+    color: #2f5d50;
+    font-weight: 700;
+}
+
+.login-card p {
+    color: #718078;
+}
+
+.login-card .form-label {
+    color: #394840;
+    font-weight: 600;
+}
+
+
+/* ========================================
+   FORM
+   ======================================== */
+
+.form-label {
+    color: #394840;
+    font-weight: 600;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 9px;
+    border: 1px solid #c9d8d0;
+    background-color: #ffffff;
+    color: #2f3e36;
+}
+
+.form-control::placeholder {
+    color: #9aa49f;
+}
+
+.form-control:focus {
+    border-color: #52796f;
+    box-shadow: 0 0 0 0.2rem rgba(82, 121, 111, 0.15);
+}
+
+.form-select {
+    padding: 12px;
+    border-radius: 9px;
+    border: 1px solid #c9d8d0;
+    background-color: #ffffff;
+}
+
+.form-select:focus {
+    border-color: #52796f;
+    box-shadow: 0 0 0 0.2rem rgba(82, 121, 111, 0.15);
+}
+
+
+/* ========================================
+   BUTTONS
+   ======================================== */
+
+.btn-primary {
+    padding: 11px 18px;
+    border-radius: 9px;
+    background-color: #2f5d50;
+    border-color: #2f5d50;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #52796f;
+    border-color: #52796f;
+}
+
+
+/* Outline Primary */
+
+.btn-outline-primary {
+    color: #2f5d50;
+    border-color: #2f5d50;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2f5d50;
+    border-color: #2f5d50;
+    color: #ffffff;
+}
+
+
+/* Add Student */
+
+.btn-add-student {
+    background-color: #2f5d50;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.btn-add-student:hover {
+    background-color: #52796f;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+
+/* Edit Button */
+
+.btn-edit {
+    background-color: #e8f0eb;
+    color: #2f5d50;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 13px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-edit:hover {
+    background-color: #d5e5dc;
+    color: #2f5d50;
+}
+
+
+/* Delete Button */
+
+.btn-delete {
+    background-color: #f8e8e8;
+    color: #a34d4d;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 13px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-delete:hover {
+    background-color: #f1d5d5;
+    color: #913f3f;
+}
+
+
+/* ========================================
+   DASHBOARD
+   ======================================== */
+
+.dashboard-card {
+    transition: 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(47, 93, 80, 0.12);
+}
+
+.dashboard-card h5 {
+    font-weight: 700;
+    color: #2f5d50;
+}
+
+.dashboard-card p {
+    color: #718078;
+}
+
+
+/* ========================================
+   PAGE TITLE
+   ======================================== */
+
+.page-title {
+    color: #2f5d50;
+    font-weight: 700;
+}
+
+.page-subtitle {
+    color: #6b756f;
+    margin-bottom: 25px;
+}
+
+
+/* ========================================
+   PROFILE
+   ======================================== */
+
+.profile-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(47, 93, 80, 0.08);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    border: 4px solid #52796f;
+}
+
+.profile-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e8f0eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    color: #52796f;
+}
+
+.profile-info {
+    background-color: #f8faf8;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.profile-info strong {
+    color: #2f5d50;
+}
+
+
+/* ========================================
+   STUDENT RECORDS
+   ======================================== */
+
+.student-table-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(47, 93, 80, 0.08);
+}
+
+
+/* Table */
+
+.student-table {
+    margin-bottom: 0;
+}
+
+.student-table thead {
+    background-color: #2f5d50;
+    color: #ffffff;
+}
+
+.student-table thead th {
+    padding: 15px;
+    font-weight: 600;
+    border: none;
+    white-space: nowrap;
+}
+
+.student-table tbody td {
+    padding: 15px;
+    vertical-align: middle;
+    color: #394840;
+    border-color: #edf1ee;
+}
+
+.student-table tbody tr {
+    transition: 0.2s ease;
+}
+
+.student-table tbody tr:hover {
+    background-color: #f3f8f5;
+}
+
+.student-id {
+    font-weight: 600;
+    color: #52796f;
+}
+
+.student-marks {
+    font-weight: 700;
+    color: #2f5d50;
+}
+
+.empty-students {
+    padding: 35px !important;
+    color: #7a847e !important;
+}
+
+
+/* ========================================
+   PASSWORD REQUIREMENT
+   ======================================== */
+
+.password-requirement {
+    background-color: #f8faf8;
+    border-left: 3px solid #52796f;
+    border-radius: 8px;
+    padding: 10px 12px;
+    color: #6b756f;
+}
+
+.password-requirement small {
+    font-weight: 600;
+    color: #52796f;
+}
+
+.password-requirement ul {
+    margin: 5px 0 0;
+    padding-left: 20px;
+}
+
+.password-requirement li {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+
+/* ========================================
+   ALERT
+   ======================================== */
+
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+.alert-danger {
+    background-color: #f8e8e8;
+    color: #913f3f;
+}
+
+.alert-success {
+    background-color: #e8f0eb;
+    color: #2f5d50;
+}
+
+
+/* ========================================
+   MESSAGE POPUP
+   ======================================== */
+
+.message-modal .modal-content {
+    border: none;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 35px rgba(47, 93, 80, 0.18);
+    overflow: hidden;
+}
+
+.message-modal .modal-header {
+    border-bottom: none;
+    padding: 22px 24px 5px;
+}
+
+.message-modal .modal-body {
+    padding: 10px 24px 28px;
+    text-align: center;
+}
+
+
+/* Popup Icon */
+
+.message-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.message-icon.success {
+    background-color: #e8f0eb;
+    color: #2f5d50;
+}
+
+.message-icon.error {
+    background-color: #f8e8e8;
+    color: #a34d4d;
+}
+
+
+/* Popup Title */
+
+.message-title {
+    color: #2f5d50;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+/* Popup Message */
+
+.message-text {
+    color: #6b756f;
+    margin-bottom: 22px;
+}
+
+
+/* Popup Button */
+
+.message-btn {
+    background-color: #2f5d50;
+    border: none;
+    color: #ffffff;
+    border-radius: 9px;
+    padding: 9px 30px;
+    font-weight: 600;
+}
+
+.message-btn:hover {
+    background-color: #52796f;
+    color: #ffffff;
+}
+
+
+/* ========================================
+   LINKS
+   ======================================== */
+
+a {
+    color: #2f5d50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #52796f;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    color: #7a847e;
+}
+
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .student-table {
+        font-size: 14px;
+    }
+
+    .student-table thead th,
+    .student-table tbody td {
+        padding: 10px;
+    }
+
+    .profile-picture,
+    .profile-placeholder {
+        width: 120px;
+        height: 120px;
+    }
+
+    .message-modal .modal-dialog {
+        margin: 15px;
+    }
+
+}
+
+
+/* ========================================
+   SMALL SCREEN FORM
+   ======================================== */
+
+@media (max-width: 576px) {
+
+    .login-card {
+        margin: 10px;
+    }
+
+    .login-card .card-body {
+        padding: 25px !important;
+    }
+
+    .password-requirement li {
+        font-size: 12px;
+    }
+
+    .navbar .btn {
+        font-size: 12px;
+        padding: 6px 9px;
+    }
+
+}
